@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Temp.Services.AuthServices;
 using Temp.Services.AutoMapper;
+using Temp.Services.EmployeesTasksService;
 using Temp.Services.SpeakersService;
 
 namespace Temp.Services.Extensions
@@ -11,6 +12,7 @@ namespace Temp.Services.Extensions
         {
             services.AddScoped<IAuthService, AuthService>();
             services.AddScoped<ISpeakersServices, SpeakersServices>();
+            services.AddScoped<IEmployeeTasksService, EmployeeTasksService>();
 
             services.AddAutoMapper(typeof(ServiceDependenciesExtensions), typeof(AutoMapperProfile));
             //TypeAdapterConfig typeAdapterConfig = TypeAdapterConfig.GlobalSettings;

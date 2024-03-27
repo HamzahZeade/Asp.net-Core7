@@ -1,0 +1,30 @@
+[
+  {
+    "Description": "Description of task 1",
+    "CalendarId": 1,
+    "EndDate": "2020-12-15T10:00:00",
+    "Text": "Task 1",
+    "Company": "Company A",
+    "Priority": "High",
+    "StartDate": "2020-11-23T10:00:00",
+    "DueDate": "2020-12-10T10:00:00",
+    "Owner": "Owner A",
+    "Status": "InProgress",
+    "ParentId": "00000000-0000-0000-0000-000000000000",
+    "Progress": 55
+  },
+  {
+    "Description": "Description of task 2",
+    "CalendarId": 2,
+    "EndDate": "2020-12-20T10:00:00",
+    "Text": "Task 2",
+    "Company": "Company B",
+    "Priority": "Low",
+    "StartDate": "2020-11-25T10:00:00",
+    "DueDate": "2020-12-12T10:00:00",
+    "Owner": "Owner B",
+    "Status": "Completed",
+    "ParentId": "00000000-0000-0000-0000-000000000000",
+    "Progress": 100
+  }
+]

@@ -11,6 +11,7 @@ namespace Temp.DAL.Seeds
             await SeedUsers(dbContext);
             await SeedPermissions(dbContext);
             await SeedRolePermissions(dbContext);
+            await SeedMyTask(dbContext);
         }
         private static async Task SeedUsers(ApplicationDbContext context)
         {
@@ -19,6 +20,10 @@ namespace Temp.DAL.Seeds
         private static async Task SeedRoles(ApplicationDbContext context)
         {
             await DefaultRoles.SeedAsync(context);
+        }
+        private static async Task SeedMyTask(ApplicationDbContext context)
+        {
+            await DefaultMyTask.SeedAsync(context);
         }
         private static async Task SeedPermissions(ApplicationDbContext context)
         {

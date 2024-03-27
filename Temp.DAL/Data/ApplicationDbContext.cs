@@ -23,6 +23,10 @@ namespace Temp.DAL.Data
         public DbSet<Speaker> Speakers { get; set; }
         public DbSet<Permission> Permissions { get; set; }
         public DbSet<RolePermission> RolePermissions { get; set; }
+        public DbSet<MyTask> MyTasks { get; set; }
+        public DbSet<Note> Notes { get; set; }
+        public DbSet<Activity> Activities { get; set; }
+        public DbSet<Message> Messages { get; set; }
 
 
 
